@@ -45,7 +45,7 @@ The start includes a build and test is with coverage and verbose - which gives o
   All files  |   90.32 |       75 |   92.85 |    92.3 |                   
    lexer.js  |    90.9 |    81.25 |     100 |   93.02 | 43-44,67          
    parser.js |   89.79 |    66.66 |   88.88 |   91.66 | 14-15,22,81       
-  -----------|---------|----------|---------|---------|-------------------
+ 
   Test Suites: 2 passed, 2 total
   Tests:       5 passed, 5 total
   Snapshots:   0 total
