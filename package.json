@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose",
-    "build": "tsc lexer parser main",
-    "start": "tsc lexer parser main && node ./main.js"
+    "test": "jest --coverage --verbose --watch",
+    "build": "tsc -w",
+    "start": "tsc && node ./dist/main.js"
   },
   "author": "",
   "license": "ISC",
