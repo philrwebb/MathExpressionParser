@@ -47,6 +47,10 @@ The start includes a build and test is with coverage and verbose - which gives o
    parser.js |   89.79 |    66.66 |   88.88 |   91.66 | 14-15,22,81       
  
   Test Suites: 2 passed, 2 total
+  
   Tests:       5 passed, 5 total
+  
   Snapshots:   0 total
+  
   Time:        0.794 s, estimated 1 s
+  
