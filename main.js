@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var lexer_1 = require("./lexer");
+var parser_1 = require("./parser");
+var util = require("util");
+var lexer = new lexer_1.default();
+var input = '(10 + 3) * 15';
+// const linput = lexer.tokenize(input);
+// console.log(util.inspect(linput, false, null, true));
+var parser = new parser_1.default(lexer.tokenize(input));
+console.log(util.inspect(parser.parse(), false, null, true));
