@@ -39,7 +39,7 @@ The start includes a build and test is with coverage and verbose - which gives o
       ✓ should handle parentheses correctly
       
   
-  -----------|---------|----------|---------|---------|-------------------
+
   File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
   -----------|---------|----------|---------|---------|-------------------
   All files  |   90.32 |       75 |   92.85 |    92.3 |                   
