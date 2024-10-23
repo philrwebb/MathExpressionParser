@@ -23,13 +23,17 @@ The start includes a build and test is with coverage and verbose - which gives o
    PASS  __tests__/lexer.test.ts
     Lexer
       ✓ should tokenize a simple expression (1 ms)
+      
       ✓ should handle parentheses
   
    PASS  __tests__/parser.test.ts
     Parser
       ✓ should parse a simple addition expression (1 ms)
+      
       ✓ should respect operator precedence
+      
       ✓ should handle parentheses correctly
+      
   
   -----------|---------|----------|---------|---------|-------------------
   File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
