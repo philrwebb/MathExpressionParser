@@ -8,11 +8,11 @@ With assistance from CoPilot have:
 To get to your local machine:
 
 1. Navigate to where you want the project;
-2. git clone ''
-3. cd
+2. git clone https://github.com/philrwebb/MathExpressionParser.git
+3. cd MathExpressionParser
 4. npm install
 
-There are scripts package.json to:
+There are scripts in the package.json to:
 
 1. test (npm test)
 2. build (npm run build)
